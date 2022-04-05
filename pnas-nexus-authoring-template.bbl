@@ -1,0 +1,102 @@
+\begin{thebibliography}{10}
+
+\bibitem{needels1988high}
+M~Needels, MC~Payne, and JD~Joannopoulos.
+\newblock High-order reconstructions of the ge (100) surface.
+\newblock {\em Physical Review B}, 38(8):5543, 1988.
+
+\bibitem{O_Rourke_2018}
+Conn O'Rourke, Shereif~Y Mujahed, Chathurangi Kumarasinghe, Tsuyoshi Miyazaki,
+  and David~R Bowler.
+\newblock Structural properties of silicon{\textendash}germanium and
+  germanium{\textendash}silicon core{\textendash}shell nanowires.
+\newblock {\em Journal of Physics: Condensed Matter}, 30(46):465303, oct 2018.
+
+\bibitem{PhysRevB.59.12301}
+Lennart Bengtsson.
+\newblock Dipole correction for surface supercell calculations.
+\newblock {\em Phys. Rev. B}, 59:12301--12304, May 1999.
+
+\bibitem{KRESSE199615}
+G.~Kresse and J.~Furthmüller.
+\newblock Efficiency of ab-initio total energy calculations for metals and
+  semiconductors using a plane-wave basis set.
+\newblock {\em Computational Materials Science}, 6(1):15--50, 1996.
+
+\bibitem{PhysRevB.50.17953}
+P.~E. Bl\"ochl.
+\newblock Projector augmented-wave method.
+\newblock {\em Phys. Rev. B}, 50:17953--17979, Dec 1994.
+
+\bibitem{PhysRevLett.77.3865}
+John~P. Perdew, Kieron Burke, and Matthias Ernzerhof.
+\newblock Generalized gradient approximation made simple.
+\newblock {\em Phys. Rev. Lett.}, 77:3865--3868, Oct 1996.
+
+\bibitem{PhysRevB.79.085104}
+Philipp Haas, Fabien Tran, and Peter Blaha.
+\newblock Calculation of the lattice constant of solids with semilocal
+  functionals.
+\newblock {\em Phys. Rev. B}, 79:085104, Feb 2009.
+
+\bibitem{needels1987ab}
+M~Needels, MC~Payne, and JD~Joannopoulos.
+\newblock Ab initio molecular dynamics on the ge (100) surface.
+\newblock {\em Physical review letters}, 58(17):1765, 1987.
+
+\bibitem{PhysRevB.50.2663}
+V.~Milman, D.~E. Jesson, S.~J. Pennycook, M.~C. Payne, M.~H. Lee, and I.~Stich.
+\newblock Large-scale ab initio study of the binding and diffusion of a ge
+  adatom on the si(100) surface.
+\newblock {\em Phys. Rev. B}, 50:2663--2666, Jul 1994.
+
+\bibitem{nagase2012multiple}
+Shigeru Nagase.
+\newblock Multiple bonds between lead atoms and short bonds between transition
+  metals.
+\newblock {\em Pure and Applied Chemistry}, 85(4):649--659, 2012.
+
+\bibitem{article}
+Maciej Szary, Barbara Pieczyrak, Leszek Jurczyszyn, and Marian Radny.
+\newblock Suppressed and enhanced spin polarization in the 1ml-pb/ge(111)-1 ×
+  1 system.
+\newblock {\em Applied Surface Science}, 466:224--229, 02 2019.
+
+\bibitem{tt1}
+Ing-Shouh Hwang and Jene~A. Golovchenko.
+\newblock Phase transition of monolayer pb/ge(111).
+\newblock {\em Phys. Rev. B}, 50:18535--18542, Dec 1994.
+
+\bibitem{kubby1987tunneling}
+JA~Kubby, JE~Griffith, RS~Becker, and JS~Vickers.
+\newblock Tunneling microscopy of ge (001).
+\newblock {\em Physical Review B}, 36(11):6079, 1987.
+
+\bibitem{lambert1987surface}
+WR~Lambert, PL~Trevor, MJ~Cardillo, A~Sakai, and DR~Hamann.
+\newblock Surface structure of ge (100) studied by he diffraction.
+\newblock {\em Physical Review B}, 35(15):8055, 1987.
+
+\bibitem{culbertson1986subsurface}
+RJ~Culbertson, Y~Kuk, and LC~Feldman.
+\newblock Subsurface strain in the ge (001) and ge (111) surfaces and
+  comparison to silicon.
+\newblock {\em Surface science}, 167(1):127--140, 1986.
+
+\bibitem{ihm1983structural}
+J~Ihm, DH~Lee, JD~Joannopoulos, and JJ~Xiong.
+\newblock Structural phase diagrams for the surface of a solid: a total-energy,
+  renormalization-group approach.
+\newblock {\em Physical review letters}, 51(20):1872, 1983.
+
+\bibitem{payne1989surface}
+MC~Payne, M~Needels, and JD~Joannopoulos.
+\newblock Surface reconstructions on germanium.
+\newblock {\em Journal of Physics: Condensed Matter}, 1(SB):SB63, 1989.
+
+\bibitem{test1}
+Young-Jo Ko, Kang-Ho Park, Jeong~Sook Ha, and Wan~Soo Yun.
+\newblock Ab initio study of the mixed dimer formation in ge growth on si(100).
+\newblock {\em Phys. Rev. B}, 60:8158--8163, Sep 1999.
+
+\end{thebibliography}

@@ -1,0 +1,374 @@
+\documentclass[unnumsec,webpdf,contemporary,large]{oup-authoring-template}%
+
+\graphicspath{{Fig/}}
+
+\theoremstyle{thmstyleone}%
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\theoremstyle{thmstyletwo}%
+\newtheorem{example}{Example}%
+\newtheorem{remark}{Remark}%
+\theoremstyle{thmstylethree}%
+\newtheorem{definition}{Definition}
+
+\usepackage{draftwatermark}
+\SetWatermarkText{Draft}
+
+\hypersetup{
+    colorlinks,
+    citecolor=blue,
+    filecolor=blue,
+    linkcolor=blue,
+    urlcolor=blue
+}
+\usepackage{makecell}
+
+
+\begin{document}
+
+\journaltitle{Study the Growth of Pb clusters on Ge(111) and Ge(100)}
+\DOI{DOI HERE}
+\copyrightyear{2022}
+\pubyear{2022}
+\access{Advance Access Publication Date: Day Month Year}
+\appnotes{Paper}
+
+\firstpage{1}
+
+
+\title[]{Study the Growth of Pb clusters on Ge(111) and Ge(100)}
+
+\author[a]{Talat Rahman}
+\author[b]{Duy Le}
+\author[c]{Theodoros E.  Panagiotakopoulos}
+%\author[d]{Fourth Author}
+%\author[c, d]{Fifth Author}
+
+\authormark{Author Name et al.}
+
+\address[a, b, c]{\orgdiv{Department of Physics}, \orgname{University of Central Florida}, \orgaddress{\street{4111 Libra Drive}, \postcode{32816}, \state{Orlando, Florida}, \country{USA}}}
+%\address[b]{\orgdiv{Department}, \orgname{Organization}, \orgaddress{\street{Street}, \postcode{Postcode}, \state{State}, \country{Country}}}
+%\address[c]{\orgdiv{Department}, \orgname{Organization}, \orgaddress{\street{Street}, \postcode{Postcode}, \state{State}, \country{Country}}}
+%\address[d]{\orgdiv{Department}, \orgname{Organization}, \orgaddress{\street{Street}, \postcode{Postcode}, \state{State}, \country{Country}}}
+
+%\corresp[$\ast$]{To whom correspondence should be addressed: \href{email:email-id.com}{email-id.com}}
+
+%\received{Date}{0}{Year}
+%\accepted{Date}{0}{Year}
+
+%\editor{Associate Editor: Name}
+
+\abstract{We have performed ab initio density-functional calculations of total energies for i) the unreconstructed Ge(111) with Pb on it, identifying the most stable configuration and the coverage point at which Pb starts forming islands on Ge(111) surface ii) Ge(100) surface to compare the ground states of b(2x2), c(4x2), p(2x2), and p(4x1) symmetry dimer reconstructions. The Pb-Ge bond length at low coverage for, one single atom on Ge(111), two atoms on Ge(111) and for 1/3 ML coverage is found to be 2.949 $\AA$, 3$\AA$ and 2.961 $\AA$ respectively. For 2 Pb atoms on Ge(111) was found that Pb atoms do not form a bond.  For one and two Pb atoms on Ge(111) and for 1/3 ML coverage ($\alpha$ phase), we found that  among H1, T1 and T4, and their possible combinations,  geometry T4, T1-T1, and T4 were energetically the most favourable respectively, while for 1 ML coverage T1 geometry is the most favorable. Moreover, it is also found that the Pb’s coverage at which the formation of islands is being  observed is 1.33 ML. As far as Ge(100) is concerned, we find that p(2x2) and c(4x2) are the lowest-energy reconstructions and are nearly degenerate in energy while we also explain this result. The most favorable absorption site for Pb/Ge(100) is also calculated, showing that among M and H, the first is more favorable. Furthermore, the formation of Pb islands on Ge(100) surface is found to take place at around 1.56 ML coverage.}
+\keywords{Pb, Ge(100), Ge(111), chemical potential, Pb clusters}
+
+
+
+\maketitle
+\section{Introduction}
+Understanding a wide range of physical properties of materials begins with the ability to calculate total energies of distinct atom arrangements. Calculating the energies of a variety of crystal forms and determining which structure is the most stable is one obvious application of total-energy calculations. Similarly, the energies of a variety of different surface reconstructions can be calculated to see which one has the lowest energy. Many additional physical properties of materials, however, can be connected to total energies or variations in total energies, and these physical properties can be determined using total-energy calculations. Because there is no direct experimental test of the quality of the computational conclusions in these circumstances, any approach used to calculate the total energies of structures that can not easily be studied experimentally,  must be accurate and dependable.
+
+\par Stable crystal structures, bulk moduli, phase transition pressures, and phase transition temperatures have all been predicted using total energy pseudopotential calculations \cite{needels1988high}. Because there are no variable parameters in the computations, they can be used with confidence even if there are no experimental results to verify their accuracy. 
+
+\par
+This study presents the results of an ab initio theoretical investigation of the energetics for Pb on unreconstructed Ge(111) surface, and makes use of chemical potential to calculate the coverage at which Pb islands are observed on the Ge(111) surface. Moreover, the results of an ab initio theoretical examination of the energetics for one family of dimer reconstructions of the Ge(100) surface are presented in this paper. In the three sections that follow, we (1) describe the calculational process we employed, (2) describe our results in relation to experiments, and (3) present our conclusions. 
+
+\section{Calculational Procedure}
+\subsection{\underline{\textbf{Ge bulk}}}
+Plotting DFT computed total system energy vs overall lattice parameter while directly changing the lattice parameter and fitting to obtain the optimum lattice parameter corresponding to the smallest energy structure is an excellent strategy.
+The optimal axial lattice parameter for fixing the axial atomic spacing and axial simulation cell length in structural relaxations performed in the next sections is the lattice value corresponding to the minimal energy structure. 
+\par
+We can see from our result for the Ge bulk that a linear interpolation provides a good approximation in this case, with the minimum of the curve fitted to the data being quite close to the interpolated point. 
+\vspace{0.2cm}
+
+
+\includegraphics[scale=0.25]{DATA.png}
+\captionof{figure}{Energy variation with axial lattice parameter for Ge bulk}
+The bulk Ge lattice constamt, is found to be  5.62 $\AA$ in agreement with other theoretical calculations \cite{O_Rourke_2018}
+
+\subsection{\underline{\textbf{Pb/Ge(111)}}}
+The total energy of Pb on Ge(111) is calculated for 1 Pb atom on a 6x6 super cell, for 1 ML coverage and for 1/3 ML coverage for all H3 , T1 , T4 sites. After that, the total energy of the three possible sites of Pb on Ge(111), H3 , T1 , T4 was minimized. 
+\includegraphics[scale=0.8]{T1_T4_H3.jpg}
+\captionof{figure}{1 ML coverage for T1, T4 and H3 site respectively}
+\label{T1T4H3}
+\vspace{0.2cm}
+
+As seen in Fig \ref{T1T4H3} in H3 site, Pb atoms are placed above the fourth layer Ge atoms, in T1 site the Pb atoms are positioned precisely above the Ge atoms in the uppermost layer, and each Pb interacts with one Ge atom on the surface, in T4 site Pb atoms are located above the second layer Ge atoms. More specifically, once the most favorable site of Pb on Ge(111) is calculated, we use it to create a Pb/Ge(111) slab with 1 ML coverage. From there we start adding Pb atoms symmetrically in our system
+(in order to avoid the formation of dipoles \cite{PhysRevB.59.12301}) and calculate the change in chemical potential $\Delta\mu_{Pb} = \mu_{Pb} - \mu_{Pbbulk}$ 
+Where $\mu_{Pb}$ is the chemical potential of Pb at certain coverage
+and $\mu_{Pbbulk}$ is the lead’s bulk chemical poten tial. According to the theory, the smaller the chemical potential is, the easier to add an atom. Low Energy Electron Microscopy (LEEM) measurements reveal an initial appearance of a Pb wetting layer until a critical coverage beyond which nanocrystalline Pb islands are formed. The chemical potential is given by the following formula.
+\begin{equation}
+\begin{split}
+\mu_{Pb}^{c} & = (E_{Pb/Ge(111)}^{c} - E_{Pb/Ge(111)}^{c - \delta c})/\delta N_{Pb}
+\end{split}
+\end{equation}
+where $E_{Pb/Ge(111)}^{c}$ is the energy of $i^{th}$ configuration, $E_{Pb/Ge(111)}^{c - \delta c})$ is the energy of preveus configuration and $\delta N_{Pb}$ is the change in the number of Pb atoms
+\par Total energy calculations were performed using VASP \cite{KRESSE199615}, employing the projector-augmented wave \cite{PhysRevB.50.17953} \cite{PhysRevLett.77.3865} and the plane-wave basis set and energy cutoffs of 500 eV and the slab was sampled using 4 × 4 × 1 k-point grid scheme. The Pb/Ge(1 1 1) system was modeled by repeated asymmetric slab consisting of ten Ge layers with Pb monolayer on the top side of the slab. The optimized  bulk Ge lattice constant of 5.647$\AA$ (experimental value for bulk Ge is 5.64$\AA$   \cite{PhysRevB.79.085104}) and a spatial spacing between the slabs of 15$\AA$ were used in all calculations. The Hubbard U value is set to 2 eV since this number gives the 0.67 eV band gap for Ge Figure \ref{d}
+\vspace{0.2cm}
+
+\includegraphics[scale=0.2]{dos.png}
+\captionof{figure}{Ge bulk band structure showing the experimentally predicted band gap of 0.67 eV}
+\label{d}
+
+\subsection{\underline{\textbf{Ge(100)}}}
+Ge(100) surface atoms are being reconstracted in order to form dimers and reduce the total energy of the system\cite{needels1988high}. The total energy of the four members of the (2x1) family of buckled dimer reconstructions was computed and minimized. As seen in Figures 4, 5, 6, 7, the (2x1) family is defined by rows of dimers. The members differ in the arrangement of "up" and "down" dimers in and perpendicular to the
+dimer rows on the (2X1) backbone. An tenlayer slab and c(4x2) unit cell , a vacuum zone
+of 9.8 $\AA$, and periodic boundary conditions in all directions were used to describe the surface. All of the atoms were free to move, however we could get the same relults if the innermost two layers were frozen\cite{needels1987ab}. To accurately compare the total energies of the various symmetry reconstructions in terms of basis functions and
+k points, we performed all calculations in a (4x2) unit cell while maintaining either precise b(2x1), (4x1), c(4x2), or p(2x2) symmetry within this supercell. As a result, we used a unit cell of 80 atoms and a volume of 126 atomic volumes in our calculations. We performed calculations using density functional theory (DFT) as implemented in the Vienna ab initio Simulation Package VASP \cite{KRESSE199615}, employing the projector-augmented wave \cite{PhysRevB.50.17953} \cite{PhysRevLett.77.3865} and the plane-wave basis set. We set the electron kinetic energy cut-off for plane-wave expansion to 500 eV. Electronic convergence threshold is set to $10^{-6}$ eV. The Hubbard U value is set to 2 eV since this number gives the 0.67 eV band gap for Ge. The number of kpoint mesh used for all the calculations is 5x9x1 after performing the apropriate convergence test.
+
+
+\includegraphics[scale=0.6]{2x1.png}
+\captionof{figure}{Bulcked 2x1 symmetry configuration, \color {purple}Purple\color{black}: top dimer atoms, \color{green} green\color{black}: down dimer atoms}
+\includegraphics[scale=0.6]{2x2.png}
+\captionof{figure}{Centered 2x2 symmetry configuration, \color {purple}Purple\color{black}: top dimer atoms, \color{green} green\color{black}: down dimer atoms}
+\includegraphics[scale=0.6]{4x1.png}
+\captionof{figure}{Primitive 4x1 symmetry configuration, \color {purple}Purple\color{black}: top dimer atoms, \color{green} green\color{black}: down dimer atoms}
+\includegraphics[scale=0.6]{4x2.png}
+\captionof{figure}{Primitive 4 x2 symmetry configuration, \color {purple}Purple\color{black}: top dimer atoms, \color{green} green\color{black}: down dimer atoms}
+\subsection{\underline{\textbf{Pb/Ge(100)}}}
+We computed and minimized the total energy of the two members of the (2x1) family of buckled dimer reconstructions, the c(4 x 2) and p(2x 2), with 1 ML coverage of Pb. The c(4 x 2) and p(2 x 2) systems are found to have the lowest and almost the same energy [1]. Eight different systems of Pb/Ge(100) with 1 ML coverage, were used to figure out which surface we would use to start absorbing lead atoms on. More specificaly, all the systems consist of 192 atoms in total, 32 Pb on the surface and 160 Ge.
+
+\par Germanium atoms are arranged on ten layers, a vacuum zone of 9.8$\AA$, and periodic boundary conditions in all directions were used to describe all the eight systems. After finding the most stable configuration of Ge(100), p(2x2), we continue by adsorbing a single Pb adatom on it in order to find the most favorable absorption site. We have only two possible adsorption sites, known as H and M.\cite{PhysRevB.50.2663}
+
+\includegraphics[scale=0.2]{H_top.png}
+\captionof{figure}{Primitive 2x2 symmetry configuration Ge top layer (gray) and Pb adatom (green) placed in H site, before (left) and after (right) relaxation}
+
+\includegraphics[scale=0.18]{H.png}
+\captionof{figure}{Primitive 2x2 symmetry configuration Ge (gray) and Pb adatom (green) placed in H site, before (up) and after (down) relaxation}
+
+\includegraphics[scale=0.2]{M_top.png}
+\captionof{figure}{Primitive 2x2 symmetry configuration Ge top layer (gray) and Pb adatom (green) placed in M site, before (left) and after (right) relaxation}
+
+\includegraphics[scale=0.18]{M.png}
+\captionof{figure}{Primitive 2x2 symmetry configuration Ge (gray) and Pb adatom (green) placed in M site, before (up) and after (down) relaxation}
+
+\vspace{0.2cm}
+We used the projector-augmented wave (PAW)\cite{PhysRevB.50.17953} \cite{PhysRevLett.77.3865} and the plane-wave basis set to do computations using density functional theory (DFT) as implemented in the Vienna ab initio Simulation Package VASP\cite{KRESSE199615}. For plane-wave expansion, we set the electron kinetic energy cut-off at 500 eV. $10^{-6}$ eV is the electronic convergence threshold. The Hubbard U value is 2 eV, which corresponds to the 0.67 eV band gap for Ge. The number of kpoint-meshes used for all calculations is 1x1x1.
+
+\vspace{0.2cm}
+\includegraphics[scale=0.15]{2x2_final.png}
+\captionof{figure}{Four p(2 x 2) systems, before and after relaxation. Pb: Green atoms and Ge: Grey}
+\label{marker1}
+
+
+\vspace{0.2cm}
+\includegraphics[scale=0.15]{4x2_final.jpg}
+\captionof{figure}{Four p(4 x 2) systems, before and after relaxation. Pb: Green atoms and Ge: Grey}
+\label{marker2}
+
+
+In the first p(2 x 2) and c(4 x 2) systems, Pb atoms are placed directly above the dimers,  while on second, Pb atoms above the right Ge dimers have been moved in a way, such that Pb atoms on the same row to be 3.2$\AA$ apart, as it can be seen in Figures  \ref{marker1} and \ref{marker2}. In the third p(2 x 2) and c(4 x 2) systems, Pb atoms are moved to form a quartet with the distance of Pb atoms on each quartet to be 3.2$\AA$, while on the last systems two duos of Pb atoms are formed , with Pb atoms in the same duo to be 3.2$\AA$ apart, Figures \ref{marker1} and \ref{marker2}.
+
+\section{Results}
+\subsection{\underline{\textbf{Pb/Ge(111)}}}
+For a single Pb atom on a 6x6 super cell the most favorable geometry is found to be T4, as we can see from the table bellow:
+
+\vspace{0.5cm}
+\begin{tabular}{||c c||} 
+ \hline
+ System & \makecell{$\Delta$energy \\ (eV)}  \\ [1ex] 
+ \hline\hline
+ \textbf{1. H3}  &  0 \\ 
+ \hline
+ \textbf{2. T1} &   0.033 \\ [1ex] 
+ \hline
+ \textbf{3. T4} &   -0.082\\ [1ex] 
+ \hline
+\end{tabular}
+\captionof{table}{Summary of the energy of the estimated geometries at low coverage, with respect to H3} 
+\vspace{0.2cm}
+
+The average Pb-Ge bond length was found to be 2.949$\AA$ and due to the charge difference plot one Pb atom is bonded with three Ge atoms.
+\includegraphics[scale=0.4]{bondlength.png}
+\captionof{figure}{Charge density difference plot of a single Pb adsorbate on the Ge(111) surface. Yellow = $e^{-}$ gain and cyan = $e^{-}$  loss.}
+\label{marker5}
+\vspace{0.2cm}
+Now for 2 Pb on the Ge(111) surface all the possible sites configurations were studied, i.e H3-H3, H3-T4, T1-T4, H3-T1, T1-T1, T4-T4. It was found that both Pb atoms prefere to be on T1 sites after relaxation. The results are described on the table bellow. 
+
+\vspace{0.5cm}
+\begin{tabular}{||c c||} 
+ \hline
+ System & \makecell{$\Delta$energy \\ (eV)}  \\ [1ex] 
+ \hline\hline
+ \textbf{1. H3-H3}  &  0 \\ 
+ \hline
+ \textbf{2. H3-T1} &   1.28 \\ [1ex] 
+ \hline
+ \textbf{3. H3-T4} &   0.07\\ [1ex] 
+ \hline
+ \textbf{1. T1-T1}  &  -0.6 \\ 
+ \hline
+ \textbf{2. T1-T4} &   -0.18 \\ [1ex] 
+ \hline
+ \textbf{3. T4-T4} &   -0.45\\ [1ex] 
+ \hline
+\end{tabular}
+\captionof{table}{Summary of the energy of the estimated geometries at low coverage, with respect to H3-H3} 
+\vspace{0.2cm}
+For the most stable configuration, T1-T1, due to the charge difference plot it is shown that two Pb atoms do not bond. 
+\vspace{0.2cm}
+\includegraphics[scale=0.4]{charge_diff3.png}
+\captionof{figure}{Charge density difference plot of two Pb adsorbates on the Ge(111) surface. Cyan = $e^{-}$  loss.}
+\label{marker5}
+\vspace{0.2cm}
+The Pb Ge bondlength in this case is found to be 3$\AA$ and Pb atoms are bonded with 4 Ge atoms.
+\vspace{0.2cm}
+Even when one Pb atom is placed above T1 site and the other is 3.2 $\AA$ away, which is the Pb-Pb bond length \cite{nagase2012multiple}, the two atoms move further away after relaxation and they are placed at 3.91 $\AA$ apart.
+\includegraphics[scale=0.15]{res_dist.png} 
+\captionof{table}{2 Pb atoms placed at 3.2 $\AA$ apart before (left) and after (right) relaxation} 
+
+\subsubsection{\underline{\textbf{1/3 ML coverage}}}
+For the 1/3 ML coverage, the so called $\alpha$ phase, we  Pb atoms adsorbed at T4 sites of the Ge(111) substrate, which is in agreement with theoretical results.
+
+\vspace{0.5cm}
+\begin{tabular}{||c c||} 
+ \hline
+ System & \makecell{ $\Delta$energy \\ (eV)}  \\ [1ex] 
+ \hline\hline
+ \textbf{1. H3}  &  0 \\ 
+ \hline
+ \textbf{2. T1} &   1.139\\ [1ex] 
+ \hline
+ \textbf{3. T4} &   -0.267\\ [1ex] 
+ \hline
+\end{tabular}
+\captionof{table}{Summary of the energy of the estimated geometries, with respect to T1  for 1/3 ML coverage} 
+\vspace{0.2cm}
+
+The average bond length  between Pb and Ge atoms, is found to be 2.961 $\AA$ and Pb is bonding with four Ge atoms.
+
+\subsubsection{\underline{\textbf{1ML coverage}}}
+For 1 ML coverage, geometry T1 was discovered to be the most energetically favorable,
+which agrees with theoretical predictions\cite{article} and experiments \cite{tt1}. T1 has a lower energy than geometries H3 and T4 by 0.41 and 0.48 eV, respectively.
+
+\vspace{0.5cm}
+\begin{tabular}{||c c||} 
+ \hline
+ System & \makecell{ $\Delta$energy \\ (eV)}  \\ [1ex] 
+ \hline\hline
+ \textbf{1. H3}  &  0.41 \\ 
+ \hline
+ \textbf{2. T1} &   0\\ [1ex] 
+ \hline
+ \textbf{3. T4} &   0.48\\ [1ex] 
+ \hline
+\end{tabular}
+\captionof{table}{Summary of the energy of the estimated geometries, with respect to T1 for 1 ML coverage} 
+
+\vspace{0.2cm}
+Further insights are obtained from ab initio thermodynamic calculations which confirm
+that at Pb coverages below 1.33 ML the chemical potential of Pb in the wetting layer is less than that in bulk Pb, suggesting that Pb atoms prefer to be in the wetting layer, while at coverages higher than 1.33 ML the order is reversed implying that Pb atoms prefer to form bulk crystal, i.e. cluster. More interestingly, we find that at above 1.33 ML coverage, the chemical potential of Pb bilayer on Ge(111) is higher than that in bulk Pb, alluding that Pb atoms prefers to form a cluster, not a bilayer, in agreement with the LEEM observations
+
+\vspace{0.2cm}
+\includegraphics[scale=0.55]{new_avg.png}
+\captionof{figure}{$\Delta\mu_{Pb} = \mu_{Pb} - \mu_{Pbbulk}$ vs Pb coverage. $\mu_{Pb}$ is the average chemical potential of Pb at certain coverage that comes from five different structures where Pb was moved arbitrary in five different directions by 1$\AA$ in order to get a smoother behavior. $\mu_{Pbbulk}$ is the lead’s bulk chemical potential}
+\label{marker4}
+\includegraphics[scale=0.55]{g_of_r_Ge_111.png}
+\captionof{figure}{Radial distribution functuion for Pb atoms placed on Ge(111) surface}
+\vspace{0.2cm}
+Lower than 1.33 ML coverage, there is no compression in the nearest neighbor distance.
+But above the 1.33 ML coverage there is compression. This explains, the positive  at Pb coverage higher than 4/3 ML and experimental observation that islands start to form after a 4/3 ML.
+\label{marker4}
+
+
+\subsection{\underline{\textbf{Ge(100)}}}
+The total energy per dimer for the b(2x1), p(4x1), c(4x2), and energy p(2x2) symmetry configurations are listed in Table I, with the energy of the b(2x1) symmetry regarded as the energy zero. 
+
+\vspace{0.5cm}
+\begin{tabular}{||c c||} 
+ \hline
+ System & \makecell{Total energy \\ (eV/dimer)}  \\ [1ex] 
+ \hline\hline
+ \textbf{1. b(2x1)}  &  0 \\ 
+ \hline
+ \textbf{2. p(4x1)} &   0.033 \\ [1ex] 
+ \hline
+ \textbf{3. p(2x2)} &   -0.082\\ [1ex] 
+ \hline
+ \textbf{4. c(4x2)} &   -0.083 \\ [1ex] 
+ \hline
+\end{tabular}
+\captionof{table}{Total energy of (2 X 1) family configurations.} 
+
+\vspace{0.5cm}
+The discrcmepancy of a few meV/dimer between the p(2X2) and c(4X2) symmetry reconstructions is within calculation errors. Kubby's \cite{kubby1987tunneling} and Lambert's \cite{lambert1987surface} conclusion that the p (2 X 2) configuration is essentially degenerate with the c(4X2) configuration is correct. At room temperature, they found both p(2X2) and c(4X2) systems coexisting with b(2X1) on the (100) surface, using STM. However, this contradicts Culbertson, Yuk, and Feldman's findings \cite{culbertson1986subsurface}, which only report c(4X2) diffraction patterns at low temperatures. Because of Ihm et al's \cite{ihm1983structural} tight-binding work on Si and  previous ab initio work on Ge by Jannopoulo's \cite{needels1987ab}, I expected p (2X2) and c (4X2) to have similar energies.  
+
+
+\par The relaxation of the atoms in the layer below the dimers is responsible for the decrease in surface energy when the buckling direction alternates from dimer to dimer along a column. The atoms in this layer move towards the raised dimer atom and away from the lowered dimer atom in the c(4 X 2) and p(2 X 2) reconstructions. Atoms also move in planes perpendicular to the arrows, but only the relaxation in the arrows' direction distinguishes the high- and low-energy reconstructions. The atoms' relaxation in the directions depicted in figure 5 keeps the lengths of the bonds between the dimer atoms and the first-layer atoms near to the bulk bond length, resulting in very minimal stretching of the first-layer atoms and the dimers. 
+\includegraphics[scale=0.6]{paper.png} \cite{payne1989surface}
+\captionof{figure}{c(4 x 2) reconstruction on Ge (001). The arrows show the relaxation of the atoms in the first layer that stabilises alternation in the dimer buckling direction down the columns.}
+\vspace{0.5cm}
+\par I get excactly the same behavior for my systems compared to the table from the paper \cite{needels1988high}.
+\includegraphics[scale=0.5]{table.png}
+
+\vspace{0.5cm}
+\begin{tabular}{||c c c||} 
+ \hline
+ System & \makecell{p(2x2) \\ (eV)} & \makecell{c(4x2) \\ (eV)}  \\ [1ex] 
+ \hline\hline
+ \textbf{1}  &  -1040.77  & -1400.61\\ 
+ \hline
+ \textbf{2} &   -1041.83 &  -1040.26\\  [1ex] 
+ \hline
+ \textbf{3} &   -1041.49 & -1039.81\\ [1ex] 
+ \hline
+ \textbf{4} &   -1041.49 & -1040.14\\ [1ex] 
+ \hline
+\end{tabular}
+\captionof{table}{Summary of the energy of the used geometries.} 
+\label{vis}
+
+\vspace{0.2cm}
+From the table above it is seen that from the considered geometries, p(2x2) have less energy so they are more stable. 
+
+\subsection{\underline{\textbf{Pb/Ge(100)}}}
+Starting with the secenod system of the Table \ref{vis}, p(2x2) with energy -1041.83 eV, we get that the most favorable site of Pb on Ge(100) is M, in agreement with similar works \cite{test1}. The total energy for the two site configurations M and H are listed in Table bellow, with the energy of H regarded as the energy zero.
+
+\vspace{0.5cm}
+\begin{tabular}{||c c||} 
+ \hline
+ System & \makecell{$\Delta$energy \\ (eV)}  \\ [1ex] 
+ \hline\hline
+ \textbf{1. H}  &  0 \\ 
+ \hline
+ \textbf{2. M} &   -0.14 \\ [1ex] 
+ \hline
+\end{tabular}
+\captionof{table}{Total energy of Pb/Ge(100), where Pb adatoms are placed on H and M sites} 
+\vspace{0.2cm}
+
+From the charge density difference bellow,  it is found that one Pb atom bonds with three Ge atoms, with an average bond length 2.88 $\AA$.
+\includegraphics[scale=0.4]{ch_dif_M.png}
+\captionof{figure}{Charge density difference plot of a single Pb adsorbate on the Ge(100) surface. Yellow = $e^{-}$ gain and cyan = $e^{-}$  loss.}
+\label{marker5}
+
+\vspace{0.2cm}
+Moreover, ab initio thermodynamic calculations confirm that the chemical potential of
+Pb in the wetting layer is less than that of bulk Pb at Pb coverages below 1.59 ML, implying that Pb atoms prefer to be in the wetting layer, whereas at coverages higher than 1.59 ML, the order is reversed, implying that Pb atoms prefer to form bulk crystal, i.e. cluster. More intriguingly, we discover that the chemical potential of a Pb bilayer on Ge(111) is higher than that of bulk Pb at 1.59 ML coverage, implying
+that Pb atoms prefer to form a cluster rather than a bilayer.
+
+\includegraphics[scale=0.5]{chem_pot_vs_coverage.png}
+\captionof{figure}{$\Delta\mu_{Pb} = \mu_{Pb} - \mu_{Pbbulk}$ vs Pb coverage. $\mu_{Pb}$ is the average chemical potential of Pb at certain coverage that comes from five different structures where Pb was moved arbitrary in five different directions by 1$\AA$ in order to get a smoother behavior. $\mu_{Pbbulk}$ is the lead’s bulk chemical potential}
+
+\includegraphics[scale=0.35]{g_of_r_ge_100.png}
+\captionof{figure}{Radial distribution functuion for Pb atoms placed on Ge(100) surface}
+\vspace{0.2cm}
+Lower than 1.56 ML coverage, there is no compression in the nearest neighbor distance.
+But above the 1.56 ML coverage there is compression. This explains, the positive  at Pb coverage higher than 1.56 ML.
+\section{Conclusion}
+\subsection{\underline{\textbf{Pb/Ge(111)}}}
+Finally, we get that the formation of Pb islands starts at around 1.33 ML coverage as it can be seen from either the radial distribution function and from the chemial potential vs Pb's coverage
+\subsection{\underline{\textbf{Ge(100)}}}
+By altering the buckling orientations of the dimers, an unlimited number of reconstructions can be built on this surface, and any finite number of calculations for the surface energy of alternative arrangements of buckled dimers cannot establish which is the most stable surface reconstruction.  The b(2 x 1), c(4 x 2), p(2 x 2), and p(4 X 1) configurations were chosen for our computations. Table 1 shows the surface energy per dimer for these buckling dimer configurations. The c(4 x 2) and p(2 x 2) reconstructions, in which the buckling direction alternates from dimer to dimer down the columns, have lower energy than the b(2 x 1) and p(4 x 1) reconstructions, in which the buckling direction is the same. 
+\subsection{\underline{\textbf{Pb/Ge(100)}}}
+Finally, we get that the formation of Pb islands starts at around 1.5l ML coverage as it can be seen from either the radial distribution function and from the chemial potential vs Pb's coverage
+
+
+\section{Funding}
+Funding Acknowledgment: NSF DMR-1701748, NSF DMR-1710306, USDOE DE-AC02-07CH11358
+
+\clearpage
+\bibliographystyle{unsrt}
+\bibliography{mybib}
+
+
+\end{document}
